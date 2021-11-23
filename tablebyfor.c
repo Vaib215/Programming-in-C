@@ -5,7 +5,8 @@ int main(int argc, char const *argv[]){
     int a;
     printf("Enter a number whose table you want :\n");
     scanf("%d",&a);
-    printf("Table of %d is :\n",a);
+    printf("Table of %d is :\n",a
+    );
     for (int i = 1; i <= 10; i++)
     {
         printf("%d X %d = %d\n",a,i,a*i);
