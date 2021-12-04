@@ -2,16 +2,17 @@
 
 int main(){
     //Author: VAIB
-    int j;
+    int j,k=0;
     printf("Enter no. of elements in array.\n");
     scanf("%d",&j);
     int array[j];
-    int k=0;
+    printf("Enter elements in array :\n");
     for (int i = 0; i < j; i++)
     {
         scanf("%d",&array[i]);
         k+=array[i];
     }
-    printf("The average is %d\n",k/j);
+    float avg= k/j;
+    printf("The average is %.2f\n",avg);
     return 0;
 }
