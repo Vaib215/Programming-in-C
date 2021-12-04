@@ -5,6 +5,7 @@ int main(){
     int a,b;
     printf("Enter number of rows and columns.\n");
     scanf("%d %d",&a,&b);
+    printf("Enter elements in matrix: ");
     int array[a][b];
     for (int i = 0; i < a; i++)
     {
