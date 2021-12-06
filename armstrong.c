@@ -1,8 +1,12 @@
 #include <stdio.h>
-int power(int a,int b){ int pow=1;
+int power(int a,int b){
+    int pow=1;
     for (int i = 0; i < b; i++)
-    {       pow *=a;    }
-    return pow;}
+        {
+        pow *=a;
+        }
+    return pow;
+}
 int digits(int a){
     int sum=0;
     while(a>0){
