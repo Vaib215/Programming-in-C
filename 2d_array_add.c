@@ -6,6 +6,7 @@ int main(){
     printf("Enter no. of rows and colums: ");
     scanf("%d %d",&a,&b);
     int arr1[a][b];
+    //1st Matrix
     printf("Enter elements in 1st matrix\n");
     for (int i = 0; i < a; i++)
     {
@@ -15,6 +16,7 @@ int main(){
         }
         
     }
+    //2nd Matrix
     int arr2[a][b];
     printf("Enter elements in 2nd matrix\n");
     for (int i = 0; i < a; i++)
