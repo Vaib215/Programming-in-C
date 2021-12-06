@@ -27,7 +27,6 @@ int main(){
     }
     //Sum
     printf("Sum of the matrices is\n");
-    int arr3[a][b];
     for (int i = 0; i < a; i++)
     {
         for (int j = 0; j < b; j++)
