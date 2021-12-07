@@ -11,7 +11,7 @@ int main(int argc, char const *argv[]){
         {
             if (b%i==0)
             {
-                c==0;
+                c=0;
                 break;
             }
             
@@ -22,7 +22,7 @@ int main(int argc, char const *argv[]){
         }
         
     } 
-}
+
     
     return 0;
 }
