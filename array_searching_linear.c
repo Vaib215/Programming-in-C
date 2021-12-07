@@ -2,9 +2,10 @@
 
 int main(){
     //Author: VAIB
-    int n,arr[100],i,key;
+    int n,i,key;
     printf("Enter no. of elements: \n");
     scanf("%d",&n);
+    int arr[n];
     printf("Enter the array:\n");
     for ( i = 0; i < n; i++)
     {
