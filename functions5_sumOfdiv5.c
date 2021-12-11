@@ -1,9 +1,9 @@
 #include <stdio.h>
-int sumby5(int a,int b){
+int sumbynum(int a,int b,int c){
     int z=0;
-    for (int i = a; i < b; i++)
+    for (int i = a+1; i < b; i++)
     {
-        if (i%5==0)
+        if (i%c==0)
         {
             z+=i;
         }
@@ -13,7 +13,9 @@ int sumby5(int a,int b){
 }
 int main(){
     //Author: VAIB
-    int a=100,b=200;
-    printf("%d\n",sumby5(a,b));
+    int a,b,c;
+    printf("Enter starting, ending limit and divisibility number: \n");
+    scanf("%d %d %d",&a,&b,&c);
+    printf("%d\n",sumbynum(a,b,c));
     return 0;
 }
