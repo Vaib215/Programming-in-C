@@ -10,7 +10,6 @@ int power(int a,int b){
 int digits(int a){
     int sum=0;
     while(a>0){
-        int digit = a%10;
         a/=10;
         sum++;
     }
@@ -19,8 +18,8 @@ int digits(int a){
 int main(){
     //Author: VAIB
     printf("Enter number until which you want Armstrong number series: \n");
-    int num=1,i;scanf("%d",&i);
-    printf("Armstrong numbers from 1 to %d are:\n",i);
+    int num,i;scanf("%d %d",&num,&i);
+    printf("Armstrong numbers from %d to %d are:\n",num,i);
     while(num<i){
     int sum=0;
     int num2=num;
