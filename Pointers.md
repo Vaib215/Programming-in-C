@@ -24,3 +24,15 @@ Ex.-
 <u>Wild Pointer</u> - A wild pointer is the one that is not intialised for anything. This type of pointer are not sufficient because they may point to unknown location.
 
 <u>Double Pointer</u> - Pointer used to point a pointer. The first pointer is used to store the address of a variable and second pointer is used to store address of first pointer.
+## Pointer Arithmetic
+We can perform following arithmetic operations on the pointers-
+1. Increament
+2. Decreament
+3. Addition
+4. Subtraction
+5. Comparison
+
+### Increament Pointer in C
+* The rule to increase the pointer is given below:
+  
+    `new address = current address + i * size of(data type) `
