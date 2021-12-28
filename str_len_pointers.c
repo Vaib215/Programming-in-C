@@ -3,14 +3,14 @@
 int main(){
     //Author: VAIB
     char str[100];
-    gets(str);
-    int *ptr;
+    scanf("%s",str);
+    char *ptr;
     int i=0;
     ptr = str;
-    while(*pt!='\0'){
+    while(*ptr!='\0'){
         i++;
-        pt++;
+        ptr++;
     }
-    printf("%d",i);
+    printf("%d\n",i);
     return 0;
 }
