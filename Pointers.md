@@ -8,7 +8,7 @@ It is a variable that stores the `*address*` of another variable.
 
 2. Untyped Pointer - This type of pointer is used to store any type of data {genric pointer } like void*a stores any data.
 
-& - Address &nbsp; &nbsp; * - Returns the value in that address
+> & - Address &nbsp; &nbsp; * - Returns the value in that address
 
 <u>Null Pointer</u> - We can create a null pointer by assigning a null value during pointer declaration. This is useful when you don't have any address assigned to a pointer. A null pointer always contain a value - `0` .
 Ex.- 
@@ -35,4 +35,5 @@ We can perform following arithmetic operations on the pointers-
 ### Increament Pointer in C
 * The rule to increase the pointer is given below:
   
-    `new address = current address + i * size of(data type) `
+   > `new address = current address + i * size of(data type) `
+
